@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayush MM Media | Image Text Extractor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Ayush MM Media IMAGE EXTRACTOR</h1>
+    <p>Extract text from any part of an image</p>
+  </header>
+
+  <input type="file" id="imageUpload" accept="image/*">
+  <canvas id="imageCanvas"></canvas>
+  <button id="extractBtn">Extract Text</button>
+  <div id="output"></div>
+
+  <footer>
+    &copy; <span>Ayush MM Media</span> 2025. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
